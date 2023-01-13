@@ -1,0 +1,479 @@
+/* source-sans-pro-regular - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/source-sans-pro-v21-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/source-sans-pro-v21-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-sans-pro-600 - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/source-sans-pro-v21-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/source-sans-pro-v21-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-sans-pro-600italic - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 600;
+    src: local(''),
+        url('../fonts/source-sans-pro-v21-latin-600italic.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/source-sans-pro-v21-latin-600italic.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* source-sans-pro-700 - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/source-sans-pro-v21-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/source-sans-pro-v21-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Design';
+    src: url('../fonts/DesignRegular.woff2') format('woff2'),
+        url('../fonts/DesignRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+    background-color: #100C16
+}
+
+
+
+
+
+li {
+    list-style: none;
+
+}
+
+ul li:before {
+    content: '✓';
+    color:
+        #2ECD6F;
+    margin: 8px
+}
+
+
+.inline {
+    display: inline-block;
+}
+
+.ben-list {
+    position: relative;
+    right: 30px;
+    text-align: left;
+    width: 100px;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.fifty-procent img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.addvert-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 1320px;
+    justify-content: space-between;
+    margin: auto
+}
+
+.advert-left {
+    width: 600px;
+}
+
+.text-yellow {
+    font-family: 'Design';
+    letter-spacing: 0.007em;
+    color: #FFC759;
+    font-weight: 500;
+}
+
+.yellow {
+    letter-spacing: 0.007em;
+    color: #FFC759;
+    font-weight: 500;
+}
+
+.header {
+    background-color: #100C16;
+    margin-top: 17px;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.cyber-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.white-cyber {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 12px;
+
+}
+
+.deal-btn {
+    text-align: center;
+}
+
+.btn {
+    background: #8276FF;
+    border-radius: 31px;
+    width: 211px;
+    height: 54px;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.free-trial {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.addvert-section {
+    margin-bottom: 150px;
+}
+
+.for10n-free {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: white;
+}
+
+.getnow-btn {
+    width: 175px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: inherit;
+    color: white;
+    border-radius: 131px;
+    border: 1px solid #8276FF
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+
+.card-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 537px;
+    height: 586px;
+    left: 297px;
+    top: 1065px;
+    background: #8D9FF4;
+
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+}
+
+.precentage {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid
+}
+
+.benefit {
+    max-width: 626px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.six-mount {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 100px auto;
+
+}
+
+
+.card {
+    background-color: rgba(141, 159, 244, 0.3);
+    width: 540px;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    border: 1px solid #8D9FF4;
+}
+
+
+.card-left,
+.card-right {
+    position: relative;
+}
+
+.line {
+    color: white;
+    text-align: center;
+}
+
+.card-price {
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.save-big {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+.discounted-price {
+    position: relative;
+    right: 130px;
+    top: 30px
+}
+
+.neon {
+    position: absolute;
+    right: -45px;
+    top: -50px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.per-user {
+    margin: 15px;
+    font-size: 23px;
+}
+
+.badges {
+    text-align: center;
+    margin: auto;
+}
+
+.badges img{ 
+    margin: auto;
+}
+
+.preview-content {
+    width: 1322px;
+    height: 813px;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    margin: 100px auto;
+}
+
+.footer {
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    width: 100%;
+    height: 222px;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer-left {
+    position: relative;
+    text-align: left;
+    width: 320px;
+    margin-left: 20%;
+    top: 40px;
+}
+
+.companies-logos {
+    height: 500px;
+}
+
+.save-text {
+
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.companies {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.companies-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+
+
+
+
+.preview-header {
+    width: 90%;
+    padding-bottom: 40px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+.footer-rigth img {
+    width: 600px;
+}
+
+.preview {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.preview-left ul {
+    margin: 30px;
+    line-height: 2.5;
+    font-weight: 500;
+}
+
+.preview-title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+    padding: 0 15px;    }
+    .fifty-procent {
+      display: none;
+      position: absolute;
+    }
+    .cyber-title {
+        width:98%;
+    }
+    .advert-left, .white-cyber {
+        text-align: center;
+    }
+    .card-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 70%;
+        height: 530px;
+        margin: 30px auto;
+    }
+
+    .discounted-price {
+        position: absolute;
+        left: -40px;
+        top:60px;
+
+        
+    }
+    .card-title {
+        margin-bottom: 50px;
+    }
+    .badges, .preview-content {
+        display: none;
+    }
+    .companies-wrap img {
+        width: 90%;
+    }
+    
+  }
